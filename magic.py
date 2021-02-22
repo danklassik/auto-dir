@@ -12,4 +12,3 @@ for row in Data.iterrows():
         print(col.good + "Создал: "+str(path)+"\\"+str(row[1][0])+"\\"+str(row[1][1]))
     except:
         print(col.bad + "Проблема в: " + str(path) + "\\" + str(row[1][0]) + "\\" + str(row[1][1]))
-
